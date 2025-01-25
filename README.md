@@ -19,4 +19,6 @@ _TBD_
 _TBD_
 
 ## References
-_TBD_
+The TULIP model code is refactorized from TULIP repository (https://github.com/barthelemymp/TULIP-TCR/)
+
+> Meynard-Piganeau, B., Feinauer, C., Weigt, M., Walczak, A. M., & Mora, T. (2024). TULIP: A transformer-based unsupervised language model for interacting peptides and T cell receptors that generalizes to unseen epitopes. Proceedings of the National Academy of Sciences, 121(24), e2316401121.
