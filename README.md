@@ -6,12 +6,14 @@ CD4+ T cell responses play a crucial role in long-term adaptive immunity. The in
 
 In this study, we introduce GradMMT (Gradient-based Rollout for Multi-Modal Transformers), a novel approach to interpret multi-modal transformers. GradMMT extends existing methods by leveraging a unique loss function that enables the separation and interpretation of attention weights across individual encoder blocks. To showcase its utility, we applied GradMMT to the predictions of the TULIP transformer for epitope prediction. We conducted four case studies on T cell responses to three antigens: the SARS-CoV-2 spike protein, the IEa-MHCII molecule, and PE-III from pseudomonas exotoxin. In each case, GradMMT provided insights into the molecular decision-making process of TULIP. This interpretability not only validated TULIP’s predictions but also aligned with experimentally observed findings on the behavior of these antigens in T cell responses.
 
-||CDR3a|CDR3b|Epitope|
-|:--|:---:|:---:|:------|
-|Structure|<img src="imgs/s-cdr3a-r.png" width="200pt">|<img src="imgs/s-cdr3b-r.png" width="200pt">|<img src="imgs/s-epitope-r.png" width="200pt">|
-|GradMMT||W95|E24,Q22,K21|
+||CDR3b|Epitope|
+|:--|:---:|:------|
+|Structure|<img src="imgs/s-cdr3b-r.png" width="200pt">|<img src="imgs/s-epitope-r.png" width="200pt">|
+|GradMMT|W95|E24,Q22,K21|
 
 _IEa-MHCII: the core region and secondary region analysis on RCSB 4P46_
+
+> 1. Stadinski, B. D., Trenh, P., Duke, B., Huseby, P. G., Li, G., Stern, L. J., & Huseby, E. S. (2014). Effect of CDR3 sequences and distal V gene residues in regulating TCR–MHC contacts and ligand specificity. The Journal of Immunology, 192(12), 6071-6082.
 
 ## Requirements
 The dependencies could be installed by `pip install -r requirements.txt`.
