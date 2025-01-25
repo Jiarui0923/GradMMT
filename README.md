@@ -30,7 +30,13 @@ The development Python version is `3.8.18` with Ubuntu 20.04.6 LTS (focal). The 
 _TBD_
 
 ## Methods
-_TBD_
+The steps to run GradMMT on your data or reproduce the results in paper.
+### 1. Build Dataset
+_If you are reproducing the results, please skip this step._  
+Please use function `gradmmt.standarize_dataframe` to transform your dataset to GradMMT readable format. The guildeline could be found at [`dataset.ipynb`](dataset.ipynb).
+### 2. One-click to Run GradMMT
+
+### 3. Results Analysis Pipeline
 
 ## Citation
 _TBD_
