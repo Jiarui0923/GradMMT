@@ -37,6 +37,10 @@ The datasets utilized in the paper.
 - Peptide: YES
 - MHC: YES
 
+> 1. Mudd, P. A., Minervina, A. A., Pogorelyy, M. V., Turner, J. S., Kim, W., Kalaidina, E., ... & Ellebedy, A. H. (2022). SARS-CoV-2 mRNA vaccination elicits a robust and persistent T follicular helper cell response in humans. Cell, 185(4), 603-613.
+> 2. Rowntree, L. C., Nguyen, T. H., Kedzierski, L., Neeland, M. R., Petersen, J., Crawford, J. C., ... & Kedzierska, K. (2022). SARS-CoV-2-specific T cell memory with common TCRαβ motifs is established in unvaccinated children who seroconvert after infection. Immunity, 55(7), 1299-1315.
+> 3. Bagaev, D. V., Vroomans, R. M., Samir, J., Stervbo, U., Rius, C., Dolton, G., ... & Shugay, M. (2020). VDJdb in 2019: database extension, new analysis infrastructure and a T-cell receptor motif compendium. Nucleic acids research, 48(D1), D1057-D1062.
+
 ### IEa-MHCII Self-antigen
 
 The structure study RCSB Crystallography Structure: RCSB 4P46
@@ -48,7 +52,7 @@ The structure study RCSB Crystallography Structure: RCSB 4P46
 - Peptide: YES
 - MHC: NO
 
-> Stadinski, B. D., Trenh, P., Duke, B., Huseby, P. G., Li, G., Stern, L. J., & Huseby, E. S. (2014). Effect of CDR3 sequences and distal V gene residues in regulating TCR–MHC contacts and ligand specificity. The Journal of Immunology, 192(12), 6071-6082.
+> 1. Stadinski, B. D., Trenh, P., Duke, B., Huseby, P. G., Li, G., Stern, L. J., & Huseby, E. S. (2014). Effect of CDR3 sequences and distal V gene residues in regulating TCR–MHC contacts and ligand specificity. The Journal of Immunology, 192(12), 6071-6082.
 
 ### PE-III from pseudomonas exotoxin
 _TBD_
@@ -59,6 +63,8 @@ The steps to run GradMMT on your data or reproduce the results in paper.
 _If you are reproducing the results, please skip this step._  
 Please use function `gradmmt.standarize_dataframe` to transform your dataset to GradMMT readable format. The guildeline could be found at [`dataset.ipynb`](dataset.ipynb).
 ### 2. One-click to Run GradMMT
+`gradmmt.RolloutExperiment` enables to run GradMMT with TULIP with just one-click. Please make sure the inputed data has already been standarized by the step 1.
+The guildeline could be found at [`gradmmt.ipynb`](gradmmt.ipynb).
 
 ### 3. Results Analysis Pipeline
 
@@ -68,4 +74,4 @@ _TBD_
 ## References
 The TULIP model code is refactorized from TULIP repository (https://github.com/barthelemymp/TULIP-TCR/)
 
-> Meynard-Piganeau, B., Feinauer, C., Weigt, M., Walczak, A. M., & Mora, T. (2024). TULIP: A transformer-based unsupervised language model for interacting peptides and T cell receptors that generalizes to unseen epitopes. Proceedings of the National Academy of Sciences, 121(24), e2316401121.
+> 1. Meynard-Piganeau, B., Feinauer, C., Weigt, M., Walczak, A. M., & Mora, T. (2024). TULIP: A transformer-based unsupervised language model for interacting peptides and T cell receptors that generalizes to unseen epitopes. Proceedings of the National Academy of Sciences, 121(24), e2316401121.
