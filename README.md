@@ -27,6 +27,30 @@ The development Python version is `3.8.18` with Ubuntu 20.04.6 LTS (focal). The 
 **NOTICE**: `DocFlow` should be installed from GitHub repository.
 
 ## Datasets
+The datasets utilized in the paper.
+
+### SARS-CoV-2 Spike
+- Dataset Path: [`datasets/sars-cov-2/sars-cov-2-structure-vdjdb.csv`](datasets/sars-cov-2/sars-cov-2-structure-vdjdb.csv)
+- 3 samples
+- CDRa: YES
+- CDRb: YES
+- Peptide: YES
+- MHC: YES
+
+### IEa-MHCII Self-antigen
+
+The structure study RCSB Crystallography Structure: RCSB 4P46
+
+- Dataset Path: [`datasets/iea-mhcii/iea-mhcii-structure.csv`](datasets/iea-mhcii/iea-mhcii-structure.csv)
+- 10 samples
+- CDRa: YES
+- CDRb: YES
+- Peptide: YES
+- MHC: NO
+
+> Stadinski, B. D., Trenh, P., Duke, B., Huseby, P. G., Li, G., Stern, L. J., & Huseby, E. S. (2014). Effect of CDR3 sequences and distal V gene residues in regulating TCR–MHC contacts and ligand specificity. The Journal of Immunology, 192(12), 6071-6082.
+
+### PE-III from pseudomonas exotoxin
 _TBD_
 
 ## Methods
