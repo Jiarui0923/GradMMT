@@ -17,7 +17,7 @@ The development Python version is `3.8.18` with Ubuntu 20.04.6 LTS (focal). The 
 |numpy <img src="https://numpy.org/images/logo.svg" width="16pt">|`1.24.4`|Mathmatical computation|[<img src="/imgs/icons/link.png" width="20pt">](https://numpy.org/)|
 |pandas <img src="https://pandas.pydata.org/docs/_static/pandas.svg" width="52pt">|`2.0.3`|Data processing|[<img src="/imgs/icons/link.png" width="20pt">](https://pandas.pydata.org/)|
 |scikit-learn <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="42pt">|`1.3.2`|Scientific compuation|[<img src="/imgs/icons/link.png" width="20pt">](https://scikit-learn.org/stable/)|
-|tqdm <img src="https://tqdm.github.io/img/logo-trans.gif" width="16pt">|`4.66.1`|Progress display|[<img src="/imgs/icons/link.png" width="20pt">](https://tqdm.github.io/docs/tqdm/)|
+|tqdm <img src="https://tqdm.github.io/img/logo-trans.gif" width="8pt">|`4.66.1`|Progress display|[<img src="/imgs/icons/link.png" width="20pt">](https://tqdm.github.io/docs/tqdm/)|
 |torch <img src="https://pytorch.org/assets/images/logo-icon.svg" width="16pt">|`2.2.1`|GPU computation|[<img src="/imgs/icons/link.png" width="20pt">](https://pytorch.org/)|
 |transformers 🤗|`4.32.1`|Bert Blocks|[<img src="/imgs/icons/link.png" width="20pt">](https://huggingface.co/docs/transformers/index)|
 |tokenizers 🤗|`0.13.3`|Auto Tokenizers|[<img src="/imgs/icons/link.png" width="20pt">](https://huggingface.co/docs/tokenizers/index)|
